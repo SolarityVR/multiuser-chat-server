@@ -26,7 +26,7 @@ app.get("*", (req, res) => {
 
 const io = require('socket.io')(server, {
     cors: {
-        origin: "https://cool-server-app.herokuapp.com",
+        origin: process.env.FRONT_URL,
         methods: ["GET", "POST"],
         credentials: true
     }

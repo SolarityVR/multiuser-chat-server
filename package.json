@@ -25,5 +25,5 @@
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
-  "proxy": "https://cool-server-app.herokuapp.com/"
+  "proxy": "http://localhost:4000/"
 }
